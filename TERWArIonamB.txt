@@ -447,5 +447,4 @@ def main():
     os.remove(f'C:\\Users\\{user}\\{user}_cookieB.txt')
     os.remove(f'C:\\Users\\{user}\\{user}_cookieE.txt')
 
-if __name__ == "__main__":
-    main()
+main()
